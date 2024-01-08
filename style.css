@@ -19,7 +19,7 @@ img {
 }
 
 .card {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   width: 350px;
@@ -30,9 +30,9 @@ img {
 }
 
 .card-header img {
-object-fit: cover;
-height: 100%;
-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .card-content {
@@ -41,13 +41,12 @@ width: 100%;
 }
 
 .card-title {
-  height: 20px;
   margin: 0;
 }
 
 .card-except {
-color: #7777;
-margin: 10px 0 20px;
+  color: #777;
+  margin: 10px 0 20px;
 }
 
 .author {
@@ -61,4 +60,15 @@ margin: 10px 0 20px;
   width: 40px;
 }
 
-.author.
+.author-auto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.author-info small {
+  color: #aaa;
+  margin-top: 5px;
+}
