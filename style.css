@@ -14,32 +14,51 @@ body {
   margin: 0;
 }
 
-.empty {
-  height: 150px;
-  width: 150px;
-  border: solid 3px black;
-  background: #fff;
+img {
+  max-width: 100%;
 }
 
-.fill {
-  background-image: url("https://images.unsplash.com/photo-1682687981907-170c006e3744?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  height: 145px;
-  width: 145px;
-  cursor: pointer;
+.card {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
 }
 
-.hold {
-  border: solid 5px #ccc;
+.card-header {
+  height: 200px;
 }
 
-.hovered {
-  background-color: #333;
-  border-color: #fff;
-  border-style: dashed;
+.card-header img {
+object-fit: cover;
+height: 100%;
+width: 100%;
 }
 
-@media (max-width: 800px) {
-  body {
-    flex-direction: column;
-  }
+.card-content {
+  background-color: #fff;
+  padding: 30px;
 }
+
+.card-title {
+  height: 20px;
+  margin: 0;
+}
+
+.card-except {
+color: #7777;
+margin: 10px 0 20px;
+}
+
+.author {
+  display: flex;
+}
+
+.profile-img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+}
+
+.author.
